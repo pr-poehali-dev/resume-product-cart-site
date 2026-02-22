@@ -274,7 +274,6 @@ export default function Index() {
             {[
               { value: "15+", label: "лет на пасеке" },
               { value: "120", label: "пчелосемей" },
-              { value: "8", label: "сортов мёда" },
               { value: "2000+", label: "довольных клиентов" },
             ].map((s) => (
               <div key={s.label} className="text-primary-foreground">
